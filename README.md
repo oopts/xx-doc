@@ -1,3 +1,8 @@
+## 李屌 与 龚屌
+![李屌 与 龚屌](./resource/img/diao-mao.jpg )
+
+
+
 ## 单点登录
 
 **核心问题**
@@ -44,10 +49,10 @@ docsify serve -p 80
 
 [详细教程, 请点击](https://blog.csdn.net/liyou123456789/article/details/124504727)
 
-
 ## ThreadLocal 保存登录用户
 
 **ThreadLocal 保存 删除 获取**
+
 ```java
 public class UserContext {
 
@@ -81,6 +86,7 @@ public class UserContext {
 **拦截器**
 
 ```java
+
 @Component
 public class LoginInterceptor implements HandlerInterceptor {
 
@@ -110,17 +116,23 @@ public class LoginInterceptor implements HandlerInterceptor {
 **配置拦截器**
 
 ```java
+
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
-    
-  @Autowired
-  private LoginInterceptor loginInterceptor;
-  
-  @Override
-  public void addInterceptors(InterceptorRegistry registry) {
-    registry.addInterceptor(loginInterceptor)
-            .addPathPatterns("/admin/**")
-            .excludePathPatterns("/admin","/admin/login/**");
-  }
+
+    @Autowired
+    private LoginInterceptor loginInterceptor;
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(loginInterceptor)
+                .addPathPatterns("/admin/**")
+                .excludePathPatterns("/admin", "/admin/login/**");
+    }
 }
 ```
+
+## 数字人民币
+
+> 中国人民银行发行的数字形式的法定货币, 由**指定运营机构参与运营**并向公众兑换, 以广义账户体系为基础，支持银行账户松耦合功能，与纸钞硬币等价
+
