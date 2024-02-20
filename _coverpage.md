@@ -2,5 +2,6 @@
 
 # Hello World
 
+> Hi
 
-![](resource/img/bg.png)
+![color](#f0f0f0)
