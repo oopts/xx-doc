@@ -1,2 +1,2 @@
-* [速记](mark/mark)
+* [Mark](mark/mark)
 * [博客](blog/blog)
