@@ -1,2 +1,2 @@
 * [Mark](mark/mark)
-* [博客](blog/blog)
+* [博客](blog/CI)
