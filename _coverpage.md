@@ -2,6 +2,5 @@
 
 # Hello World
 
-> Hi
 
 ![color](#07c160)
