@@ -1,10 +1,6 @@
-![logo]()
+[//]: # (![logo]&#40;&#41;)
 
 # Hello World
 
-> Hi
 
-- 1
-- 2
-- 3
-
+![](resource/img/bg.png)
