@@ -1,1 +1,2 @@
-* [持续集成-(dockers,jenkins)](blog/持续集成)
+* [持续集成-(dockers,jenkins)](blog/CI)
+* [单点登录](blog/SSO)
